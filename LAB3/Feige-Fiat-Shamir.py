@@ -68,7 +68,7 @@ def main():
     v = pow(s, 2, n)
 
     # Количество раундов (параметр)
-    t = 1  # Вы можете изменить это значение
+    t = 1
 
     prover = Prover(n, s, t)
     verifier = Verifier(n, v, t)
